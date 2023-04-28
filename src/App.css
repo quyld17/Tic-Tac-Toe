@@ -2,13 +2,20 @@
   box-sizing: border-box;
 }
 
+.title {
+  margin-left: 35.703px;
+  display: block;
+}
+
 body {
   margin: 0 auto;
-  max-width: 500px;
+  max-width: 300px;
 }
 
 .winner-update {
-  margin-left: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .row {
@@ -31,4 +38,19 @@ body {
   padding: 0;
   text-align: center;
   width: 34px;
+}
+
+.game:not([className='game']) {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.game-board {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.game-status {
+  margin-right: 5px;
 }
